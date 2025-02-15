@@ -100,7 +100,7 @@ fun BusinessCard(isDarkMode: Boolean, modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(64.dp))
 
-        // Contact Info (Clickable Email)
+
         Row(
             verticalAlignment = Alignment.CenterVertically
         ) {
@@ -125,7 +125,7 @@ fun BusinessCard(isDarkMode: Boolean, modifier: Modifier = Modifier) {
         }
         Spacer(modifier = Modifier.height(8.dp))
 
-        // Clickable Phone Number
+
         Row(
             verticalAlignment = Alignment.CenterVertically
         ) {
